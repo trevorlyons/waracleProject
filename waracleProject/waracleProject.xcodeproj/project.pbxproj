@@ -17,6 +17,7 @@
 		E1E9AF2622B54DD6008042FB /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9AF2522B54DD6008042FB /* Requestable.swift */; };
 		E1E9AF2822B54E52008042FB /* CakeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9AF2722B54E52008042FB /* CakeService.swift */; };
 		E1E9AF2A22B54E69008042FB /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9AF2922B54E69008042FB /* Cake.swift */; };
+		E1E9AF2C22B54EAF008042FB /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9AF2B22B54EAF008042FB /* ErrorHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E1E9AF2522B54DD6008042FB /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
 		E1E9AF2722B54E52008042FB /* CakeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeService.swift; sourceTree = "<group>"; };
 		E1E9AF2922B54E69008042FB /* Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
+		E1E9AF2B22B54EAF008042FB /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			children = (
 				E1E9AF2522B54DD6008042FB /* Requestable.swift */,
 				E1E9AF2922B54E69008042FB /* Cake.swift */,
+				E1E9AF2B22B54EAF008042FB /* ErrorHandler.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1E9AF2822B54E52008042FB /* CakeService.swift in Sources */,
+				E1E9AF2C22B54EAF008042FB /* ErrorHandler.swift in Sources */,
 				E1E9AF2A22B54E69008042FB /* Cake.swift in Sources */,
 				E1E9AEFF22B54BEC008042FB /* ViewController.swift in Sources */,
 				E1E9AF2622B54DD6008042FB /* Requestable.swift in Sources */,
@@ -425,7 +429,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WZZ5MUDVKJ;
-				INFOPLIST_FILE = waracleProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/waracleProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,7 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WZZ5MUDVKJ;
-				INFOPLIST_FILE = waracleProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/waracleProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
