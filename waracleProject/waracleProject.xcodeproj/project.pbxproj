@@ -78,11 +78,12 @@
 			isa = PBXGroup;
 			children = (
 				E1E9AEFC22B54BEC008042FB /* AppDelegate.swift */,
-				E1E9AEFE22B54BEC008042FB /* ViewController.swift */,
-				E1E9AF0022B54BEC008042FB /* Main.storyboard */,
-				E1E9AF0322B54BED008042FB /* Assets.xcassets */,
-				E1E9AF0522B54BED008042FB /* LaunchScreen.storyboard */,
-				E1E9AF0822B54BED008042FB /* Info.plist */,
+				E1E9AF1C22B54C9E008042FB /* Services */,
+				E1E9AF1D22B54CA8008042FB /* Model */,
+				E1E9AF1E22B54CB2008042FB /* View */,
+				E1E9AF1F22B54CB7008042FB /* Controller */,
+				E1E9AF2022B54CBD008042FB /* Helpers */,
+				E1E9AF2122B54CC3008042FB /* Resources */,
 			);
 			path = waracleProject;
 			sourceTree = "<group>";
@@ -94,6 +95,53 @@
 				E1E9AF1322B54BED008042FB /* Info.plist */,
 			);
 			path = waracleProjectTests;
+			sourceTree = "<group>";
+		};
+		E1E9AF1C22B54C9E008042FB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E1E9AF1D22B54CA8008042FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1E9AF1E22B54CB2008042FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1E9AF1F22B54CB7008042FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1E9AEFE22B54BEC008042FB /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1E9AF2022B54CBD008042FB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E1E9AF2122B54CC3008042FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1E9AF0022B54BEC008042FB /* Main.storyboard */,
+				E1E9AF0322B54BED008042FB /* Assets.xcassets */,
+				E1E9AF0522B54BED008042FB /* LaunchScreen.storyboard */,
+				E1E9AF0822B54BED008042FB /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
