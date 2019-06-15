@@ -52,6 +52,7 @@ extension CakeVC: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(cell: CakeCell.self, indexPath: indexPath)
         let current = data[indexPath.row]
         
+        cell.tag = indexPath.row
         cell.configureCell(with: current)
         return cell
     }

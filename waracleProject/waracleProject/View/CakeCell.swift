@@ -14,10 +14,12 @@ class CakeCell: UITableViewCell {
     @IBOutlet weak var descLbl: UILabel!
     
     public func configureCell(with cake: Cake) {
+        cakeImageView.image = nil
         titleLbl.text = cake.title
         descLbl.text = cake.desc
         
         guard let url = URL(string: cake.image) else { return }
+
         DispatchQueue.global().async {
             do {
                 let data = try Data(contentsOf: url)
@@ -32,5 +34,3 @@ class CakeCell: UITableViewCell {
         }
     }
 }
-
-
