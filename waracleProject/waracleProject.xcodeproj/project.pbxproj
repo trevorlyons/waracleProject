@@ -13,6 +13,8 @@
 		E1E9AF0422B54BED008042FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E9AF0322B54BED008042FB /* Assets.xcassets */; };
 		E1E9AF0722B54BED008042FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E9AF0522B54BED008042FB /* LaunchScreen.storyboard */; };
 		E1E9AF1222B54BED008042FB /* waracleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9AF1122B54BED008042FB /* waracleProjectTests.swift */; };
+		E1E9AF2422B54DAE008042FB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9AF2322B54DAE008042FB /* API.swift */; };
+		E1E9AF2622B54DD6008042FB /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9AF2522B54DD6008042FB /* Requestable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		E1E9AF0D22B54BED008042FB /* waracleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waracleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E9AF1122B54BED008042FB /* waracleProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waracleProjectTests.swift; sourceTree = "<group>"; };
 		E1E9AF1322B54BED008042FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E9AF2322B54DAE008042FB /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E1E9AF2522B54DD6008042FB /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 		E1E9AF1C22B54C9E008042FB /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				E1E9AF2322B54DAE008042FB /* API.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -107,6 +112,7 @@
 		E1E9AF1D22B54CA8008042FB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E1E9AF2522B54DD6008042FB /* Requestable.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -245,6 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1E9AEFF22B54BEC008042FB /* ViewController.swift in Sources */,
+				E1E9AF2622B54DD6008042FB /* Requestable.swift in Sources */,
+				E1E9AF2422B54DAE008042FB /* API.swift in Sources */,
 				E1E9AEFD22B54BEC008042FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
