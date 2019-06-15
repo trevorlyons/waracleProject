@@ -16,5 +16,21 @@ class CakeCell: UITableViewCell {
     public func configureCell(with cake: Cake) {
         titleLbl.text = cake.title
         descLbl.text = cake.desc
+        
+        guard let url = URL(string: cake.image) else { return }
+        DispatchQueue.global().async {
+            do {
+                let data = try Data(contentsOf: url)
+                DispatchQueue.main.async {
+                    self.cakeImageView.image = UIImage(data: data)
+                }
+            } catch {
+                DispatchQueue.main.async {
+                    self.cakeImageView.image = #imageLiteral(resourceName: "not-available")
+                }
+            }
+        }
     }
 }
+
+
