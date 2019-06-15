@@ -15,6 +15,8 @@
 		E1E9AF1222B54BED008042FB /* waracleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9AF1122B54BED008042FB /* waracleProjectTests.swift */; };
 		E1E9AF2422B54DAE008042FB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9AF2322B54DAE008042FB /* API.swift */; };
 		E1E9AF2622B54DD6008042FB /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9AF2522B54DD6008042FB /* Requestable.swift */; };
+		E1E9AF2822B54E52008042FB /* CakeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9AF2722B54E52008042FB /* CakeService.swift */; };
+		E1E9AF2A22B54E69008042FB /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9AF2922B54E69008042FB /* Cake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		E1E9AF1322B54BED008042FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1E9AF2322B54DAE008042FB /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		E1E9AF2522B54DD6008042FB /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		E1E9AF2722B54E52008042FB /* CakeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeService.swift; sourceTree = "<group>"; };
+		E1E9AF2922B54E69008042FB /* Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				E1E9AF2322B54DAE008042FB /* API.swift */,
+				E1E9AF2722B54E52008042FB /* CakeService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				E1E9AF2522B54DD6008042FB /* Requestable.swift */,
+				E1E9AF2922B54E69008042FB /* Cake.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -250,6 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E9AF2822B54E52008042FB /* CakeService.swift in Sources */,
+				E1E9AF2A22B54E69008042FB /* Cake.swift in Sources */,
 				E1E9AEFF22B54BEC008042FB /* ViewController.swift in Sources */,
 				E1E9AF2622B54DD6008042FB /* Requestable.swift in Sources */,
 				E1E9AF2422B54DAE008042FB /* API.swift in Sources */,
